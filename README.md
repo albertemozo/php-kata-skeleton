@@ -13,5 +13,5 @@ composer install
 Check everything works.
 
 ```shell
-vendor/bin/phpunit
+composer test
 ```
