@@ -2,6 +2,7 @@
     "name": "albertedevigo/php-kata-scaffold",
     "description": "A simple scaffold for PHP katas",
     "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
