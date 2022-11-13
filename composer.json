@@ -17,6 +17,7 @@
         "phpunit/phpunit": "^9.5"
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "test": "vendor/bin/phpunit",
+        "test-docker": "docker run --rm --volume=\"$(pwd)\"/:/kata --workdir=/kata php:8-cli php vendor/bin/phpunit"
     }
 }
