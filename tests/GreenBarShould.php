@@ -6,12 +6,12 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 
-class TestingFrameworkTest extends TestCase
+class GreenBarShould extends TestCase
 {
     /**
      * @test
      */
-    public function shouldWork(): void
+    public function beGreen(): void
     {
         $this->assertTrue(true);
     }
