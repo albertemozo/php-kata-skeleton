@@ -1,6 +1,6 @@
-# PHP Kata Scaffold
+# 💀 PHP Kata Skeleton
 
-A simple scaffold for PHP katas.
+A simple skeleton for PHP katas.
 
 ## Usage
 
