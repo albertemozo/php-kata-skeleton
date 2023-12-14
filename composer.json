@@ -1,6 +1,6 @@
 {
-    "name": "albertedevigo/php-kata-scaffold",
-    "description": "A simple scaffold for PHP katas",
+    "name": "albertemozo/php-kata-skeleton",
+    "description": "A simple skeleton for PHP katas",
     "type": "project",
     "license": "MIT",
     "autoload": {
