@@ -2,7 +2,27 @@
 
 A simple skeleton for PHP katas.
 
-## Usage
+## Requirements
+- One of the following:
+  - PHP 8.3+
+  - Docker
+- Make (optional)
+
+## Usage with Docker
+
+Build the image.
+
+```shell
+make build
+```
+
+Run the tests.
+
+```shell
+make test
+```
+
+## Usage with local PHP
 
 Install dependencies.
 
@@ -13,11 +33,5 @@ composer install
 Check everything works.
 
 ```shell
-composer test
-```
-
-You can run PHPUnit using a Docker container instead of a local interpreter.
-
-```shell
-composer test-docker
+php vendor/bin/phpunit
 ```
