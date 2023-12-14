@@ -16,7 +16,7 @@ Build the image.
 make build
 ```
 
-Run the tests.
+Check everything works.
 
 ```shell
 make test
