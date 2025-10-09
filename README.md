@@ -4,7 +4,7 @@ A simple skeleton for PHP katas.
 
 ## Requirements
 - One of the following:
-  - PHP 8.3+
+  - PHP 8.4+
   - Docker
 - Make (optional)
 
